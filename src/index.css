@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Prompt:wght@300;400;500;600&family=Sarabun:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Prompt", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", "Sarabun", serif;
+  --color-stone-50: #fcfaf5;
+  --color-stone-100: #fdfbf7;
+  --color-stone-200: #f5f0e1;
+  --color-stone-300: #e9e4d9;
+  --color-stone-800: #5a4a35;
+  --color-stone-900: #2d241e;
+  --color-stone-950: #1a1510;
+  --color-gold: #d4af37;
+  --color-gold-dark: #8b6d11;
+}
+
+@layer base {
+  body {
+    @apply bg-stone-50 text-stone-900 selection:bg-gold selection:text-white;
+  }
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-gold);
+}
+
+.border-gold {
+  border-color: var(--color-gold);
+}
+

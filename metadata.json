@@ -1,0 +1,8 @@
+{
+  "name": "Sriwarn Phra Yok Shop",
+  "description": "Premium stone-carved Buddha statues and Buddhist amulets from Thailand.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
